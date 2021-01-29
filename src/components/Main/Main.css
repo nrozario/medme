@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Heiti TC";
+  font-weight: 100;
+  font-style: normal;
+  src: local("Heiti"), url(../../fonts/STHeitiLight.ttc) format("truetype");
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 0px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  box-sizing: border-box;
+  font-weight: 100;
+  font-family: "Heiti TC";
+  font-size: 20px;
+}
+
+form {
+  margin: 8px 5px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}

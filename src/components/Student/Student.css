@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Heiti TC";
+  font-weight: 100;
+  font-style: normal;
+  src: local("Heiti"), url(../../fonts/STHeitiLight.ttc) format("truetype");
+}
+
+p,
+.tag {
+  font-weight: 100;
+  font: "Heiti TC";
+}
+
+p {
+  text-align: left;
+  margin: 5px 5px 5px 25px;
+}
+
+.name {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  border: 1px solid rgb(220, 220, 220);
+  height: 80%;
+  margin-top: 10%;
+}
+
+input[type="text"],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 0px 0px;
+  display: inline-block;
+  border: 0px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  box-sizing: border-box;
+  font-weight: 100;
+  font-family: "Heiti TC";
+  font-size: 20px;
+}
+
+.tag {
+  background-color: rgb(224, 224, 224);
+  text-align: center;
+  padding: 5px 15px;
+  margin: 5px 5px 5px 0px;
+  border-radius: 4px;
+  justify-self: left;
+  display: inline;
+}
+
+.expand-btn {
+  justify-content: "flex-end";
+}
